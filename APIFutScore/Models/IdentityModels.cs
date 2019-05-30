@@ -29,5 +29,29 @@ namespace APIFutScore.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<APIFutScore.Models.Cartao> Cartaos { get; set; }
+
+        public System.Data.Entity.DbSet<APIFutScore.Models.Equipe> Equipes { get; set; }
+
+        public System.Data.Entity.DbSet<APIFutScore.Models.Escalacao> Escalacaos { get; set; }
+
+        public System.Data.Entity.DbSet<APIFutScore.Models.Escanteio> Escanteios { get; set; }
+
+        public System.Data.Entity.DbSet<APIFutScore.Models.Falta> Faltas { get; set; }
+
+        public System.Data.Entity.DbSet<APIFutScore.Models.Gols> Gols { get; set; }
+
+        public System.Data.Entity.DbSet<APIFutScore.Models.Jogador> Jogadors { get; set; }
+
+        public System.Data.Entity.DbSet<APIFutScore.Models.Jogo> Jogoes { get; set; }
+
+        public System.Data.Entity.DbSet<APIFutScore.Models.Penalti> Penaltis { get; set; }
+
+        public System.Data.Entity.DbSet<APIFutScore.Models.Resultado> Resultadoes { get; set; }
+
+        public System.Data.Entity.DbSet<APIFutScore.Models.Subtituicao> Subtituicaos { get; set; }
+
+        public System.Data.Entity.DbSet<APIFutScore.Models.Usuario> Usuarios { get; set; }
     }
 }
